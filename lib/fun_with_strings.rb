@@ -1,6 +1,7 @@
 module FunWithStrings
-  def palindrome?
-    # your code here
+  def palindrome?(string)
+    r_string = string.reverse
+    return true if r_string == string
   end
   def count_words
     # your code here
